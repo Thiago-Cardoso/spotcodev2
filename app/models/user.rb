@@ -7,5 +7,5 @@ class User < ApplicationRecord
   has_many :favorites
   has_many :recently_heards
  
-  validates :name, presence: true
+  #validates :name, presence: true
 end
